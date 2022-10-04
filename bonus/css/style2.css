@@ -14,7 +14,7 @@ body{
     width: 100%;
     background-image: url(../img/jumbo.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     padding-top: 10px;
 }
 .discord{
