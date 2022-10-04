@@ -83,30 +83,31 @@ body{
 }
 .img{
     margin-top: 100px;
-    height: 400px;
+    height: 450px;
     width: 35%;
     background-color: aqua;
-    margin-right: -500px;
+    margin-right: -600px;
 }
 .testo{
     margin-top: 100px;
-    height: 400px;
-    width: 25%;
+    height: 450px;
+    width: 20%;
     background-color: chocolate;
 }
 .img2{
     margin-top: 100px;
-    height: 400px;
-    width: 30%;
+    height: 450px;
+    width: 35%;
     background-color: aqua;
+   
     
 }
 .testo2{
     margin-top: 100px;
-    height: 400px;
-    width: 30%;
-    margin-right: -300px;
+    height: 450px;
+    width: 25%;
     background-color: chocolate;
+    margin-right: -600px;
 }
 .sezione2{
     height: 600px;
@@ -135,13 +136,13 @@ body{
    margin: auto;
     
     
-    background-color: blueviolet;
+   background-color: blueviolet;
 }
 .img3{
-    height: 500px;
+    height: 730px;
     width: 70%;
     background-color: brown;
-    margin: 100px auto;
+    margin: 50px auto;
 
 }
 .scarica{
@@ -322,14 +323,33 @@ hr{
     color: black;
     text-decoration: none;
 }
-.item1{
-    margin-bottom: 100px;
-}
+
 .tit{
-    font-size: 60px;
+    font-size: 50px;
     text-align: left;
 }
 .parag{
-    padding-top: 20px;
-    font-size: 20px;
+    padding-top: 25px;
+    font-size: 22px;
+    text-align: left;
+    line-height: 30px;
+}
+.tit2{
+    font-size: 50px;
+    text-align: center;
+}
+.parag2{
+    padding-top: 25px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 30px;
+    
+    
+}
+.img-big{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 730px;
+    width: 1200px;
 }
