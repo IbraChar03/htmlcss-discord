@@ -140,7 +140,7 @@ main{
     width: 70%;
     margin: auto;
     height: 200px;
-    background-color: brown;
+    /* background-color: brown; */
     margin-top: 100px;
     margin-bottom: 50px;
    
@@ -158,7 +158,7 @@ main{
     width: 70%;
     height: 700px;
     margin: auto;
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -168,10 +168,29 @@ main{
 .box13{
     width: 350px;
     height: 300px;
-    background-color: orange;
+    
     display: flex;
+    border-radius: 10px;
     justify-content: center;
     align-items: center;
+}
+.box13.color{
+    background-color: orange;
+}
+.box13.color2{
+    background-color: lightblue;
+}
+.box13.color3{
+    background-color: greenyellow;
+}
+.box13.color4{
+    background-color: rebeccapurple;
+}
+.box13.color5{
+    background-color: red;
+}
+.box13.color6{
+    background-color: blue;
 }
 .cont-box > br 
 {
@@ -181,7 +200,7 @@ main{
 .box-den{
     height: 250px;
     width: 200px;
-    background-color: #5865F2;
+    /* background-color: #5865F2; */
     
 }
 .emoji{
