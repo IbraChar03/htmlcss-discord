@@ -169,13 +169,36 @@ main{
     width: 350px;
     height: 300px;
     background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .cont-box > br 
 {
    width: 100%;
    content: '';
 }
-
+.box-den{
+    height: 250px;
+    width: 200px;
+    background-color: #5865F2;
+    
+}
+.emoji{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.collez{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+.ing{
+    margin-top: 20px;
+    margin-left: 15px;
+    border-radius: 5px;
+}
 /* FOOTER */
 .footer{
     width: 100%;
