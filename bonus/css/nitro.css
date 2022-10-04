@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Whitney", 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   
+}
+
+/* HEADER */
+
+.intestazione{
+    height: 700px;
+    width: 100%;
+    background-image: url(../img/nitrods.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  
+  
+    padding-top: 10px;
+}
+.discord{
+    height: 80px;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 70px;
+    /* background-color: blueviolet; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link{
+    color: white;
+    font-size: 18px;
+    margin-right: 30px;
+    text-decoration: none;
+}
+.link-col2{
+    color: black;
+    text-decoration: none;
+}
+.dsheader2{
+    
+    color: black;
+    position: absolute;
+    right: 0;
+    border-radius: 40px;
+    font-size: 16px;
+    padding-top: 10px;
+    height: 40px;
+    width: 90px;
+    background-color:white;
+    text-align: center;
+   
+    
+    
+}
+#dsheader {
+    font-size: 20px;
+    color: white;
+    
+    position: absolute;
+    left: 0;
+}
+.discord2{
+    
+    height: 200px;
+    width: 40%;
+    margin: auto;
+    /* background-color: brown; */
+    margin-top: 150px;
+}
+.testoheader{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+   
+}
+.testoheader2{
+    margin-top: 25px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+.discord3{
+    
+    height: 100px;
+    width: 40%;
+    margin: auto;
+    /* background-color: blanchedalmond; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box1{
+    color: black;
+    border-radius: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+    height: 50px;
+    width:220px;
+    background-color:white;
+    text-align: center;
+    margin-right: -120px;
+    padding: 15px 0;
+    
+
+}
+.box2{
+    color: white;
+    background-color: #23272a;
+    border-radius: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+    height: 50px;
+    width: 340px;
+    text-align: center;
+    padding: 15px 30px;
+}
+#download-icon{
+    color:black;
+    font-size: 20px;
+    margin-right: 5px;
+}
+#black{
+    color: black;
+}
+
+/* MAIN */
+main{
+    width: 100%;
+    margin: auto;
+    height: 1200px;
+ 
+}
+.text{
+    width: 70%;
+    margin: auto;
+    height: 200px;
+    background-color: brown;
+    margin-top: 100px;
+    margin-bottom: 50px;
+   
+}
+.titolo{
+    font-size: 50px;
+    text-align: center;
+}
+.pa{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.cont-box{
+    width: 70%;
+    height: 700px;
+    margin: auto;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.box13{
+    width: 350px;
+    height: 300px;
+    background-color: orange;
+}
+.cont-box > br 
+{
+   width: 100%;
+   content: '';
+}
+
+/* FOOTER */
+.footer{
+    width: 100%;
+    height: 500px;
+    background-color: #23272a;
+    padding-top: 50px;
+    
+    
+}
+
+
+
+.container{
+    width: 70%;
+    margin: auto;
+    height: 350px;
+    /* background-color: white; */
+    display: flex;
+    justify-content: space-around;
+    
+}
+.col1{
+    height: 200px;
+    width: 20%;
+    margin-right: 5px;
+    /* background-color: aquamarine; */
+}
+.col2{
+    height: 350px;
+    width: 12%;
+    margin-right: 5px;
+    /* background-color: darkcyan; */
+    text-align: left;
+}
+.fine{
+    width: 70%;
+    height: 70px;
+    margin: auto;
+    /* background-color: darkgoldenrod; */
+   
+    justify-content: space-between;
+    position: relative;
+    
+}
+hr{
+    height: 1px;
+        background-color: #5865F2;
+        border: none;
+}
+#ds {
+    font-size: 20px;
+    color: white;
+    padding-top: 30px;
+    position: absolute;
+    left: 0;
+}
+.ciao{
+    
+    color: white;
+    position: absolute;
+    right: 0;
+    border-radius: 40px;
+    font-size: 16px;
+    padding-top: 10px;
+    height: 40px;
+    width: 120px;
+    background-color: #5865F2;
+    
+    text-align: center;
+    margin-top: 20px;
+    
+    
+}
+.spazio{
+    font-size: 35px;
+    color: #5865F2;
+}
+.italy{
+    height: 30px;
+    width: 30px;
+    vertical-align: -45%;
+}
+.ita{
+    color: white;
+    font-size: 18px;
+}
+.arrow{
+    
+    height: 15px;
+    width: 15px;
+}
+#twitter{
+    margin-top: 15px;
+    color: white;
+    font-size: 25px;
+    margin-right: 15px;
+}
+#insta{
+    margin-top: 15px;
+    color: white;
+    margin-right: 15px;
+    font-size: 25px;
+}
+#facebook{
+    margin-top: 15px;
+    color: white;
+    margin-right: 15px;
+    font-size: 25px;
+}
+#youtube{
+    margin-top: 15px;
+    color: white;
+    margin-right: 15px;
+    font-size: 25px;
+}
+.colore.font{
+    color: #5865F2;
+    font-size: 18px;
+    list-style-type: none;
+    margin-top: 5px;
+}
+.font{
+    font-size: 18px;
+    list-style-type: none;
+    margin-top: 10px;
+    color:white;
+}
+
+.link-col{
+    color: white;
+    text-decoration: none;
+}
+
+
+.tit{
+    font-size: 50px;
+    text-align: left;
+}
+.parag{
+    padding-top: 25px;
+    font-size: 22px;
+    text-align: left;
+    line-height: 30px;
+}
+.tit2{
+    font-size: 50px;
+    text-align: center;
+    
+}
+.parag2{
+    padding-top: 25px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 30px;
+    
+    
+}
+.img-big{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 730px;
+    width: 1200px;
+}
+.avven{
+    font-size: 40px;
+    text-align: center;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+}
+
+.box12{
+    color:white;
+    border-radius: 40px;
+    font-size: 20px;
+    padding-top: 10px;
+    height: 50px;
+    width:220px;
+    background-color:#5865F2;
+    text-align: center;
+    padding: 15px 0;
+    
+
+}
+.tasto{
+    height: 100px;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    /* background-color: bisque; */
+    
+    
+    
+}
+
